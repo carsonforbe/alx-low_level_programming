@@ -1,5 +1,7 @@
 #include <stdio.h>
-int main() {
-    printf("hello world\n");
-    return 0;
+#ifndef MAIN_H
+#define MAIN_H
+char print(void) {
+	printf("_putchar\n");
 }
+#endif /* MAIN_h */
